@@ -101,7 +101,7 @@ html, body {
     padding-bottom: 0;
 }
 .cardtes{
-    margin-left: 110px;
+    margin: auto;
     max-width: 75%;
     padding: 16px;
     text-align: left;
@@ -117,7 +117,7 @@ html, body {
 /*--Sewa Mobil--*/
 .sewa_mobil{
     width: 75%;
-    height: 300px;
+    padding: 96px;
     background-color: var(--color-primary);
     text-align: center;
     align-items: middle;
@@ -185,19 +185,62 @@ h4{
 
 /*--Media Queries--*/
 @media (max-width: 992px){
+    .best-car{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        width: 80%;
+    }
 
+    .why-us{
+        text-align: center;
+        padding-bottom: 0;
+        width: 80%;
+    }
+
+    .testi{
+        width: 80%;
+        text-align: center;
+    }
+
+    .sewa_mobil{
+        padding-top: 20px;
+        width: 80%;
+        height: 250px;
+        border-radius: 15px;
+    }
+
+    .faqs{
+        width: 80%
+    }
+
+    .footeritem{
+        width: 90%;
+    }
 
 }
 @media (max-width: 768px){
+    .sewa_mobil{
+        width: 90%;
+        min-height: 350px;
+        padding: 70px;
+        border-radius: 15px;
+    }
+
     .imgcard{
-        height: 80px;
-        width: 80px;
+        margin: auto;
+        max-width: 80px;
+        max-height: 80px;
     }
 
     .cardtes{
         max-width: 100%;
         padding: 16px;
         text-align: center;
+    }
+
+    .footeritem{
+        text-align: center;
+        width: 90%;
     }
 
 }
@@ -215,9 +258,9 @@ h4{
     }
 
     .sewa_mobil{
-        padding-top: 20px;
         width: 90%;
-        height: 400px;
+        min-height: 320px;
+        padding: 20px;
         border-radius: 15px;
     }
     
