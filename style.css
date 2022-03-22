@@ -98,7 +98,7 @@ html, body {
     padding-bottom: 0;
 }
 .cardtes{
-    margin-left: 100px;
+    margin-left: 110px;
     max-width: 75%;
     padding: 16px;
     text-align: left;
@@ -189,6 +189,12 @@ h4{
     .imgcard{
         height: 80px;
         width: 80px;
+    }
+
+    .cardtes{
+        max-width: 100%;
+        padding: 16px;
+        text-align: center;
     }
 
 }
